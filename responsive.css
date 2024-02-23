@@ -1,0 +1,66 @@
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 576px) {
+  body{
+    font-size: 14px;
+  }
+  .title{
+    font-size: 28px;
+  }
+  /* Navbar */
+  .navbar span ul{
+    display: none;
+  }
+  .hero .owl-carousel .item img{
+    height: 300px;
+  }
+
+  /* Travel */
+  .travel{
+    flex-direction: column;
+  }
+  .travel .travel-text{
+    width: 80%;
+    padding: 40px 0;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  /* Contact Us */
+  .contact .contact-main {
+    flex-direction: column-reverse;
+  }
+  .contact .contact-main .cleft .cleft-df{
+    display: flex;
+    margin: 0 auto;
+    gap: 30px;
+    top: 0;
+    padding: 16px 0;
+  }
+  .contact .contact-main .cleft{
+    width: 100%;
+  }
+  .contact .contact-main .cleft .cleft-btn{
+    text-align: center;
+  }
+  .contact .contact-main .cright .map iframe{
+    width: 100%;
+    height: 360px;
+  }
+  .contact .contact-main .cright form {
+    width: 100%;
+  }
+  
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {...} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {...} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {...} */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {...} */
